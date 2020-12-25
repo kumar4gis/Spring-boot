@@ -1,8 +1,11 @@
-package net.codejava;
+package net.codejava.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
+import net.codejava.Person;
+import net.codejava.respository.PersonRepository;
 
 public class PersonService {
 
