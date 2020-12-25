@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 public class Address {
 	
-	private int id;
+	private Long id;
 	private String postalCode;
 	private String street;
 	private String city;
@@ -28,7 +28,7 @@ public class Address {
 		
 	}
 	
-	public Address(int id2, String street2, String city2, String state2, String postalCode2) {
+	public Address(Long id2, String street2, String city2, String state2, String postalCode2) {
 		// TODO Auto-generated constructor stub
 		 this.id = id2;
 	        this.street = street2;
