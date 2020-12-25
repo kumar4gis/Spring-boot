@@ -1,8 +1,11 @@
-package net.codejava;
+package net.codejava.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
+import net.codejava.Address;
+import net.codejava.respository.AddressRepository;
 
 public class AddressService {
 
